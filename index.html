@@ -79,12 +79,12 @@
 const SETTINGS = {
   // Add a local image file named "ishant-photo.jpg" in this folder, or paste an image URL.
   photo: "ishant-photo.jpg",
-  educationUrl: "https://example.com/education-project",
-  ecommerceUrl: "https://example.com/ecommerce-project",
-  realEstateUrl: "https://example.com/real-estate-project",
-  googleDriveUrl: "https://drive.google.com/",
+  educationUrl: "https://newindiapanchkula.in/",
+  ecommerceUrl: "https://phantombar.ca/",
+  realEstateUrl: "https://abarchitecture.au/",
+  googleDriveUrl: "#",
   // Enter digits only with country code, e.g. India: 919876543210
-  whatsappNumber: "91XXXXXXXXXX"
+  whatsappNumber: "919467214177"
 };
 
 const profileImage = document.getElementById("profileImage");
@@ -112,7 +112,7 @@ document.querySelectorAll(".editable-link").forEach(link => {
 const driveLink = document.getElementById("driveLink");
 driveLink.href = SETTINGS.googleDriveUrl;
 driveLink.addEventListener("click", e => {
-  if (SETTINGS.googleDriveUrl === "https://drive.google.com/") {
+  if (SETTINGS.googleDriveUrl === "https://drive.google.com/drive/folders/1w6Ai91dLkvs-Q0TFlsRPjoli5dbvwUNY") {
     e.preventDefault();
     alert("Please add your shareable Google Drive folder URL in the SETTINGS section of index.html.");
   }
